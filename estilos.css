@@ -1,0 +1,33 @@
+p{
+    color: rgb(4, 110, 27);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+*{
+    margin: 0;
+}
+
+.contenedor{
+    background-color: rgba(156, 79, 24, 0.603);
+    background-image: url("hola/young-woman-waving-white-scarf-600nw-1075168757.webp");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+}
+p{
+    font-size: xx-large;
+    padding: 15%;
+}
+button{
+    font-size: xx-large;
+    padding: 0.75em;
+}
+
+#yesBtn{
+    transform: translate(-100%,0);
+}
+#noBtn{
+    position: absolute;
+}
